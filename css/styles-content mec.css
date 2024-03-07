@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+a{
+    text-decoration: none;
+    display:inline-flex;
+    color: white;
+}
+
+.encabezado__container{
+    width: 100%;
+    padding: 25px;
+    background-color: #2d3135;
+    color: white;
+    text-align: center;
+}
+.subtitle{
+    font-weight: 200;
+    margin-top: 15px ;
+    
+}
+.encabezado__title{
+    width: 100%;
+    border-bottom: solid 1px #19c7a4;
+    text-transform: uppercase;
+    color: white;
+    box-shadow:0px 5px 5px -3.5px rgb(12, 84, 91);
+}
+
+.encabezado__icons  {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 10px auto;
+    
+    font-size: 25px;
+}
+
+.icon{
+    color: white;
+}
+
+.options{
+    background-color: #197e69;
+    position: sticky ;
+    top:0;
+    box-shadow:0px 2px 5px rgb(19, 130, 102);
+}
+
+.options__container{
+    
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    color: white;
+    
+}
+
+.options__container--left{
+    display: flex;
+    height: 22px;
+    align-items: center;
+    justify-content: space-between;
+    width: 430px;
+    font-size: 20px;
+    
+}
+
+.carrera{
+    
+    font-weight: 200;
+}
+
+.bx-menu{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.options-menu-id{
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #1eab8e;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.options-menu-id a{
+    display: block;
+}
+
+.nav__label{
+    
+    padding:2px 5px;
+    border-radius: 3px;
+}
+
+.nav__input{
+    display: none;
+}
+
+.nav__input:checked + .options-menu-id{
+    opacity: 1;
+    height: 125px;
+    
+}
+
+.enlace-menu{
+    padding: 10px;
+    color: white;
+    
+}
+
+
+.enlace-menu:hover{
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.portafolio{
+    text-align: center;
+    
+}
+.portafolio__container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    
+    justify-content: center;
+}
+.portafolio-caja{
+    margin:30px;
+    background-color: #6A94D2;
+    width: 250px;
+    
+    height: 200px;
+    display: block;
+}
+
+.enlaces-carreras{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin:  auto;
+    
+    text-align: center;
+    
+}
+
+.enlace-carrera{
+    width: 150px;
+    padding:10px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    border: #195fc7 2px solid;
+    transition: 0.5s;
+}
+
+.enlace-carrera:hover{
+    background-color: #195fc7;
+
+}
+
+.enlace-active{
+    background-color: #195fc7;
+    
+}

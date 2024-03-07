@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500&family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.encabezado__container{
+    width: 100%;
+    padding: 25px;
+    background-color: #188383;
+    color: white;
+    text-align: center;
+    box-shadow:0px 2px 5px rgb(53, 58, 71);
+}
+
+.encabezado__title{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px white;
+    text-transform: uppercase;
+    box-shadow:0px 5px 3px -4px rgb(190, 190, 190);
+}
+
+.encabezado__icons  {
+    display: flex;
+    justify-content: space-between ;
+    
+    font-size: 30px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.icon{
+    color: white;
+}
+
+
+.cards{
+    padding: 20px;
+    width: 800px;
+    margin: 25px auto 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 300px;
+    
+    text-align: center;
+}
+
+
+
+.puesto{
+    margin: 10px;
+}
+
+.pie__container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3135;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    box-shadow:10px 0px 5px rgb(53, 55, 61);
+}
+
+.card__description{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px;
+    align-items: center;
+    text-align: center;
+}
+.card__content{
+    text-align: center;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    margin: 0 auto;
+    box-shadow:0px 2px 5px rgb(53, 58, 71);
+}
+
+.img-card{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+    pointer-events: unset;
+}
+
+.text{
+    width: 250px;
+    height: 250px;
+    padding-top: 80px;
+    display: block;
+    opacity: 0;
+    align-items: center;
+    border-radius: 28px;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+
+.text:hover{
+    opacity: 1;
+    width: 260px;
+    height: 260px;
+}
+
+.frontend .text{
+    background-color: #254f80a9;
+    border: #254F80 solid 5px;
+}
+.mechanical .text{
+    background-color: #257a8086;
+    border: #257a80 solid 5px;
+}
+
+
+.logo-utp{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.bx-search-alt-2{
+
+    font-size: 25px;
+    position: relative;
+    top:10px;
+    
+    display: block;
+    transition: 0.5s;
+}
+
+.bx-search-alt-2:hover{
+    font-size: 40px;
+}
