@@ -28,7 +28,7 @@ a{
 }
 .subtitle{
     font-weight: 200;
-    margin: 15px ;
+    margin: 15px 15px 0 15px ;
     
 }
 .encabezado__title{
@@ -147,7 +147,7 @@ a{
 .portafolio__container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     
     justify-content: center;
@@ -160,6 +160,23 @@ a{
     height: 315px;
     display: block;
     
+}
+
+.portafolio-caja-skill{
+    margin:30px 10px 0 10px;
+    background-color: #195fc7;;
+    width: 70px;
+    border-radius: 10px;
+    height: 70px;
+    display: block;
+}
+
+.portafolio-caja-skill>img{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 15px 10px;
+
 }
 
 .portafolio-subtitulo{
